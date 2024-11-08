@@ -1,0 +1,105 @@
+.section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.section img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+.header {
+  position: relative;
+  bottom: 10px;
+    background: #76b852;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.header h1 {
+    font-size: 2.5rem;
+}
+body {
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-image: url('https://cff2.earth.com/uploads/2018/03/27171141/Global-land-degradation-could-displace-millions-in-the-future.jpeg');
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color:black;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(230, 72, 72);
+    padding: 5px 10px;
+  }
+  
+  a:hover {
+    color: #000080;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    color: rgb(244, 239, 239);
+    background: rgba(8, 8, 8, 0.6)
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  h3{
+    color: black;
+    background:rgb(244, 239, 239,0.6);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }

@@ -1,0 +1,146 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    background: #76b852;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.header h1 {
+    font-size: 2.5rem;
+}
+
+/* Sections */
+.section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.section img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    padding: 0.7rem;
+    border: none;
+    background-color: #76b852;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form button:hover {
+    background-color: #5a9444;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color:black;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(197, 71, 17);
+    padding: 5px 10px;
+  }
+  
+  a:hover {
+    color: #1570b6;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    color: rgb(244, 239, 239);
+    background: rgba(8, 8, 8, 0.6)
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }

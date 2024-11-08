@@ -1,0 +1,40 @@
+.section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+.section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.section img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    padding: 0.7rem;
+    border: none;
+    background-color: #76b852;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form button:hover {
+    background-color: #5a9444;
+}
